@@ -2,7 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, run in another terminal the json server for mocks APIS
+
+```
+json-server --watch mock.json --port 3004
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
