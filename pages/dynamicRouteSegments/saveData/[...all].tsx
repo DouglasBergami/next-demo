@@ -2,7 +2,7 @@ import styles from '../../../styles/Home.module.css'
 
 import { useRouter } from 'next/router'
 
-export default function NestedRoute() {
+export default function SaveData() {
   const router = useRouter()
   const {all} = router.query
 
